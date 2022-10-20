@@ -9,14 +9,14 @@ class ResponseTest {
 
     @Test
     void testSetStatusCode() {
-        // Arrange
+        //Arrange
         Response response = new Response();
 
-        // Act
+        //Act
         response.setStatusCode(StatusCode.OK);
 
-        // Assert
+        //Assert
         assertEquals(StatusCode.OK.code, response.getStatus());
-        assertEquals(StatusCode.OK.message, response.getMessage());
+        assertEquals(StatusCode.OK.code, response.getMessage());
     }
 }
