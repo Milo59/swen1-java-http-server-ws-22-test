@@ -1,7 +1,7 @@
 package org.example.application.housing;
 
 import org.example.application.housing.controller.HouseController;
-import org.example.application.housing.repository.HouseMemoryRepository;
+import org.example.application.game.repository.HouseMemoryRepository;
 import org.example.server.Application;
 import org.example.server.dto.Request;
 import org.example.server.dto.Response;

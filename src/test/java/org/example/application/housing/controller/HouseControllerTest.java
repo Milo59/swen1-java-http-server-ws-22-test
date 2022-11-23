@@ -1,11 +1,9 @@
 package org.example.application.housing.controller;
 
 import org.example.application.housing.model.House;
-import org.example.application.housing.repository.HouseMemoryRepository;
-import org.example.application.housing.repository.HouseRepository;
+import org.example.application.game.repository.HouseRepository;
 import org.example.server.dto.Request;
 import org.example.server.dto.Response;
-import org.example.server.http.Method;
 import org.example.server.http.StatusCode;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

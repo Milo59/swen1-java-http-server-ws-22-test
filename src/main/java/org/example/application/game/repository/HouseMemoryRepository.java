@@ -1,4 +1,4 @@
-package org.example.application.housing.repository;
+package org.example.application.game.repository;
 
 import org.example.application.housing.model.House;
 
